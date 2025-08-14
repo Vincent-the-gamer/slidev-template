@@ -18,10 +18,9 @@ This is a [Slidev](https://sli.dev/guide/) template, please make sure you can us
 npx degit https://github.com/Vincent-the-gamer/slidev-template.git ./my-slide
 ```
 
-To export your slides, you will need `playwright-chromium`
+To export your slides, run:
 
 ```shell
-pnpm i playwright-chromium -D
 pnpm run export
 # Or
 pnpm run export --format pptx

@@ -15,6 +15,7 @@
     "vue": "^3.5.18"
   },
   "devDependencies": {
+    "playwright-chromium": "^1.54.2",
     "taze": "^19.1.0"
   }
 }
