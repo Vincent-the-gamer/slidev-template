@@ -1,29 +1,21 @@
 ---
-# You can also start simply with 'default'
-theme: seriph
-background: /wallpaper.png
-# some information about your slides (markdown enabled)
-title: Slidev Template
+css: unocss
+highlighter: shiki
+colorSchema: dark
+transition: fade-out
+title: "Slidev Template"
 info: |
   ## Slidev Template
-  An opinionated template for Slidev.
-
+  An opinionated template for Slidev with glass-morphism dark theme.
   Learn more at [Sli.dev](https://sli.dev)
-# apply unocss classes to the current slide
-class: text-center
-# https://sli.dev/features/drawing
+class: text-center font-cover
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
-# open graph
 seoMeta:
-  # By default, Slidev will use ./og-image.png if it exists,
-  # or generate one from the first slide if not found.
   ogImage: auto
-  # ogImage: https://cover.sli.dev
+glowSeed: 205
+glow: top-left
 src: ./pages/home.md
 ---
 

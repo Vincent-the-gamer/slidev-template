@@ -1,2 +1,5 @@
+allowBuilds:
+  esbuild: true
+  playwright-chromium: false
 onlyBuiltDependencies:
   - playwright-chromium
