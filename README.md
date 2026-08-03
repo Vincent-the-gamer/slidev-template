@@ -4,11 +4,11 @@
     <p>An opinionated Slidev template.</p>
 </div>
 
-# Hint
+## Hint
 
 This is a [Slidev](https://sli.dev/guide/) template, please make sure you can use it.
 
-# Usage
+## Usage
 
 1. Directly generate your repository from GitHub.
 2. Clone to local
@@ -26,6 +26,10 @@ pnpm run export
 pnpm run export --format pptx
 ```
 
-# License
+## Make a slide with AI agent
+
+Using skill: https://github.com/Vincent-the-gamer/skills/tree/main/skills/slidev
+
+## License
 
 [MIT License](./LICENSE.md)
